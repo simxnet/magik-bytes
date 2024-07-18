@@ -1,6 +1,4 @@
-#![feature(slice_pattern)]
 #![deny(clippy::all)]
-use core::slice::SlicePattern;
 use napi::bindgen_prelude::Buffer;
 
 extern crate core;
@@ -10,7 +8,7 @@ extern crate napi_derive;
 
 #[napi]
 pub fn get_mimetype_from_bytes(bytes: Buffer) -> String {
-  FileType::from_magic_bytes(bytes.as_slice()).to_mimetype()
+  FileType::from_magic_bytes(bytes.as_ref()).to_mimetype()
 }
 
 #[derive(Debug, PartialEq)]
