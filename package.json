@@ -1,5 +1,5 @@
 {
-  "name": "@simxnet/magik-bytes",
+  "name": "@belize/magik-bytes",
   "version": "0.0.0",
   "main": "index.js",
   "types": "index.d.ts",
@@ -30,5 +30,10 @@
   },
   "packageManager": "yarn@4.3.1",
   "repository": "https://github.com/simxnet/magik-bytes",
-  "description": "file mimetype classifier made in rust for the Seyfert library 🪐"
+  "description": "file mimetype classifier made in rust for the Seyfert library 🪐",
+  "optionalDependencies": {
+    "@simxnet/magik-bytes-win32-x64-msvc": "0.0.0",
+    "@simxnet/magik-bytes-darwin-x64": "0.0.0",
+    "@simxnet/magik-bytes-linux-x64-gnu": "0.0.0"
+  }
 }

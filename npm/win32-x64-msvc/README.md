@@ -1,3 +1,3 @@
-# `@simxnet/magik-bytes-win32-x64-msvc`
+# `@belize/magik-bytes-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `@simxnet/magik-bytes`
+This is the **x86_64-pc-windows-msvc** binary for `@belize/magik-bytes`

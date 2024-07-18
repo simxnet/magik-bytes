@@ -1,5 +1,5 @@
 {
-  "name": "@simxnet/magik-bytes-linux-x64-gnu",
+  "name": "@belize/magik-bytes-linux-x64-gnu",
   "version": "0.0.0",
   "os": [
     "linux"
