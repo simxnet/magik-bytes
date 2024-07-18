@@ -1,5 +1,5 @@
 {
-  "name": "mgkbytes-win32-x64-msvc",
+  "name": "@simxnet/magik-bytes-win32-x64-msvc",
   "version": "0.0.0",
   "os": [
     "win32"
@@ -7,12 +7,14 @@
   "cpu": [
     "x64"
   ],
-  "main": "mgkbytes.win32-x64-msvc.node",
+  "main": "magik-bytes.win32-x64-msvc.node",
   "files": [
-    "mgkbytes.win32-x64-msvc.node"
+    "magik-bytes.win32-x64-msvc.node"
   ],
+  "description": "file mimetype classifier made in rust for the Seyfert library 🪐",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/simxnet/magik-bytes"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "mgkbytes-linux-x64-gnu",
+  "name": "@simxnet/magik-bytes-linux-x64-gnu",
   "version": "0.0.0",
   "os": [
     "linux"
@@ -7,14 +7,16 @@
   "cpu": [
     "x64"
   ],
-  "main": "mgkbytes.linux-x64-gnu.node",
+  "main": "magik-bytes.linux-x64-gnu.node",
   "files": [
-    "mgkbytes.linux-x64-gnu.node"
+    "magik-bytes.linux-x64-gnu.node"
   ],
+  "description": "file mimetype classifier made in rust for the Seyfert library 🪐",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
+  "repository": "https://github.com/simxnet/magik-bytes",
   "libc": [
     "glibc"
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "mgkbytes-darwin-x64",
+  "name": "@simxnet/magik-bytes-darwin-x64",
   "version": "0.0.0",
   "os": [
     "darwin"
@@ -7,12 +7,14 @@
   "cpu": [
     "x64"
   ],
-  "main": "mgkbytes.darwin-x64.node",
+  "main": "magik-bytes.darwin-x64.node",
   "files": [
-    "mgkbytes.darwin-x64.node"
+    "magik-bytes.darwin-x64.node"
   ],
+  "description": "file mimetype classifier made in rust for the Seyfert library 🪐",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/simxnet/magik-bytes"
 }

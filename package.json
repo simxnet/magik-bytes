@@ -4,7 +4,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "@simxnet/magik-bytes",
+    "name": "magik-bytes",
     "triples": {}
   },
   "license": "MIT",
@@ -28,5 +28,7 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.3.1",
+  "repository": "https://github.com/simxnet/magik-bytes",
+  "description": "file mimetype classifier made in rust for the Seyfert library 🪐"
 }

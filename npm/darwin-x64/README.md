@@ -1,3 +1,3 @@
-# `mgkbytes-darwin-x64`
+# `@simxnet/magik-bytes-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `mgkbytes`
+This is the **x86_64-apple-darwin** binary for `@simxnet/magik-bytes`
