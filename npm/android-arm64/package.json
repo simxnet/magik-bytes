@@ -1,15 +1,15 @@
 {
-  "name": "@belize/magik-bytes-win32-x64-msvc",
+  "name": "@belize/magik-bytes-android-arm64",
   "version": "0.0.2",
   "os": [
-    "win32"
+    "android"
   ],
   "cpu": [
-    "x64"
+    "arm64"
   ],
-  "main": "@belize/magik-bytes.win32-x64-msvc.node",
+  "main": "@belize/magik-bytes.android-arm64.node",
   "files": [
-    "@belize/magik-bytes.win32-x64-msvc.node"
+    "@belize/magik-bytes.android-arm64.node"
   ],
   "description": "file mimetype classifier made in rust for the Seyfert library 🪐",
   "license": "MIT",

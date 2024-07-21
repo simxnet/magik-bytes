@@ -1,5 +1,5 @@
 {
-  "name": "@belize/magik-bytes-linux-x64-gnu",
+  "name": "@belize/magik-bytes-linux-x64-musl",
   "version": "0.0.2",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "@belize/magik-bytes.linux-x64-gnu.node",
+  "main": "@belize/magik-bytes.linux-x64-musl.node",
   "files": [
-    "@belize/magik-bytes.linux-x64-gnu.node"
+    "@belize/magik-bytes.linux-x64-musl.node"
   ],
   "description": "file mimetype classifier made in rust for the Seyfert library 🪐",
   "license": "MIT",
@@ -18,6 +18,6 @@
   },
   "repository": "https://github.com/simxnet/magik-bytes",
   "libc": [
-    "glibc"
+    "musl"
   ]
 }

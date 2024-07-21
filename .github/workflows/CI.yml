@@ -1,7 +1,7 @@
 name: CI
 env:
   DEBUG: napi:*
-  APP_NAME: magik-bytes
+  APP_NAME: '@belize/magik-bytes'
   MACOSX_DEPLOYMENT_TARGET: '10.13'
 permissions:
   contents: write
